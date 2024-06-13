@@ -1,16 +1,26 @@
 \begin{abstract}
 
     \begin{center}
-        \large{Исследование и разработка методов машинного обучения} \\
-    \large\textit{Иванов Иван Иванович} \\[1 cm]
+        \large{Векторизация ленивых вычислений} \\
+    \large\textit{Егоров Иван Максимович} \\[1 cm]
 
-    Краткое описание задачи и основных результатов, мотивирующее прочитать весь текст.
+    В данной работе рассмотрены алгоритмы векторизации, представленные в большинстве современных компиляторах, а также условия применимости этих алгоритмов. 
+    
+    Было выявлено, что ленивые вычисления, поддерживаемые стандартами языков С/С++, не могу быть векторизованы современными компиляторами. Вследствие этого был предложен и разработан алгоритм векторизации таких вычислений. 
+    
+    Для реализации оптимизации был выбран набор компиляторов GCC. В качестве результатов и демонстрации ценности проделанной работы приведена статистика работы реальных тестовых данных из пакетов СPUBench и SPEC CPU 2017.
 
     \vfill
 
     \textbf{Abstract} \\[1 cm]
 
-    Research and development of machine learning methods
+    Vectorization of lazy evaluation
+
+    This paper examines the vectorization algorithms presented in most modern compilers, as well as the conditions for the applicability of these algorithms.
+
+    It has been established that lazy evaluations exposed to C/C++ language standards cannot be vectorized by modern compilers. As a result, an algorithm for vectorizing such evaluations was proposed and developed.
+
+    To implement the optimization, the GCC compiler set was chosen. Statistics of the performance of real test data from the CPUBench and SPEC CPU 2017 packages are presented as the results of the work performed.
     \end{center}
 
 \end{abstract}
