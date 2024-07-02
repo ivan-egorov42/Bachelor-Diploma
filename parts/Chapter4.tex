@@ -109,7 +109,7 @@
 Проверка осуществляется следующим образом:
 
 \begin{equation}
-    addr\_last \ \& \ (page\_size - 1) \ge N_{elements} * size_{element},
+    addr\_last \ \& \ (page\_size - 1) \ge N_{elements} * size_{element} - 1,
 \end{equation}
 
 где 
